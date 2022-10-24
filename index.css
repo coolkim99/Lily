@@ -2,8 +2,11 @@ table {
     width : 800px;
     text-align: center;
     border-collapse : collapse;
+    font-size: 2em;
 }
-
+tr {
+    height : 100px;
+}
 #lefttable {
     width : 200px;
 }
