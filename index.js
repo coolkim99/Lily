@@ -57,8 +57,8 @@ function calculate() {
     var cash14v2 = seccost14 * 1.1;
     var cash18v2 = seccost18 * 1.1;
 
-    cash14 = Math.round(cash14v2/1000) * 1000;
-    cash18 = Math.round(cash18v2/1000) * 1000;
+    cash14v2 = Math.round(cash14v2/1000) * 1000;
+    cash18v2 = Math.round(cash18v2/1000) * 1000;
     document.getElementById("14cash2").innerHTML = cash14v2.toLocaleString();
     document.getElementById("18cash2").innerHTML = cash18v2.toLocaleString();
 
