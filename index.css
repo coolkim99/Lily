@@ -3,6 +3,10 @@ table {
     text-align: center;
     border-collapse : collapse;
     font-size: 2em;
+    border-top: solid 2px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
 }
 tr {
     height : 100px;
@@ -23,4 +27,16 @@ tr {
 input {
     height: 50px;
     font-size: 25px;
+}
+
+.blue {
+    background-color: #ffe1f8;
+}
+
+.yellow {
+    background-color: antiquewhite;
+}
+
+.green {
+    background-color: aliceblue;
 }
