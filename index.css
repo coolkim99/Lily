@@ -19,3 +19,8 @@ tr {
 .line {
     border-top: solid 2px;
 }
+
+input {
+    height: 50px;
+    font-size: 25px;
+}
