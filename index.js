@@ -41,8 +41,4 @@ function calculate() {
     document.getElementById("18cash2").innerHTML = seccost18 * 1.1;
     document.getElementById("14naver2").innerHTML = seccost14 * 1.1 * 1.2;
     document.getElementById("18naver2").innerHTML = seccost18 * 1.1 * 1.2;
-
-
-
-
 }
