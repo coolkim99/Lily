@@ -32,6 +32,9 @@ input {
 .blue {
     background-color: #ffe1f8;
 }
+.bluenav {
+    background-color: #ffc5f1;
+}
 
 .yellow {
     background-color: antiquewhite;
@@ -39,4 +42,7 @@ input {
 
 .green {
     background-color: aliceblue;
+}
+.greennav {
+    background-color: rgb(180, 220, 255);
 }
