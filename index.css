@@ -1,0 +1,18 @@
+table {
+    width : 800px;
+    text-align: center;
+    border-collapse : collapse;
+}
+
+#lefttable {
+    width : 200px;
+}
+
+#name {
+    width : 70%;
+    margin: 0 5px;
+}
+
+.line {
+    border-top: solid 2px;
+}

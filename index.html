@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Lily</title>
+</head>
+<body onchange="calculate()">
+    <script type="text/javascript" src="index.js"></script>
+    <div id = "wrapper">
+        <table border="1">
+            <th id = "lefttable">제품명</th>
+            <th><input id="name"/></th>
+            <th><input id="name"/></th>
+            <tr>
+                <td id = "lefttable"></td>
+                <td>14K</td>
+                <td>18K</td>
+            </tr>
+            <tr>
+                <td id = "lefttable">중량</td>
+                <td><input id="14weight"/></td>
+                <td><input id="18weight"/></td>
+            </tr>
+            <tr>
+                <td id = "lefttable">공임</td>
+                <td><input id="14pay"/></td>
+                <td><input id="18pay"/></td>
+            </tr>
+            <tr>
+                <td id = "lefttable">마진</td>
+                <td><input id="14margin"/></td>
+                <td><input id="18margin"/></td>
+            </tr>
+            <tr>
+                <td id = "lefttable">현재 금 시세</td>
+                <td colspan="2">300000</td>
+            </tr>
+            <tr>
+                <td id = "lefttable">원가</td>
+                <td id="14cost"></td>
+                <td id="18cost"></td>
+            </tr>
+            <tr>
+                <td id = "lefttable">현금가</td>
+                <td id="14cash"></td>
+                <td id="18cash"></td>
+            </tr>
+            <tr>
+                <td id = "lefttable">네이버가</td>
+                <td id="14naver"></td>
+                <td id="18naver"></td>
+            </tr>
+            <tr>
+                <td class = "line" id = "lefttable">현재 금 시세</td>
+                <td class = "line" colspan="2"><input id="gold"/></td>
+            </tr>
+            <tr>
+                <td id = "lefttable">원가</td>
+                <td id = "14cost2"></td>
+                <td id = "18cost2"></td>
+            </tr>
+            <tr>
+                <td id = "lefttable">현금가</td>
+                <td id = "14cash2"></td>
+                <td id = "18cash2"></td>
+            </tr>
+            <tr>
+                <td id = "lefttable">네이버가</td>
+                <td id = "14naver2"></td>
+                <td id = "18naver2"></td>
+            </tr>
+        </table>
+        <!-- <button onclick="calculate()">계산</button> -->
+    </div>
+</body>
+</html>
