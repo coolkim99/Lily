@@ -16,8 +16,8 @@ function calculate() {
     var cost14 = temp14 + pay + 20000;
     var cost18 = temp18 + pay + 20000;
 
-    cost14 = Math.round(cost14/1000)*1000;
-    cost18 = Math.round(cost18/1000)*1000;
+    cost14 = Math.ceil(cost14/1000)*1000;
+    cost18 = Math.ceil(cost18/1000)*1000;
 
     document.getElementById("14cost").innerHTML = cost14.toLocaleString();
     document.getElementById("18cost").innerHTML = cost18.toLocaleString();
@@ -25,16 +25,16 @@ function calculate() {
     var cash14 = cost14 * 1.1;
     var cash18 = cost18 * 1.1;
 
-    cash14 = Math.round(cash14/1000) * 1000;
-    cash18 = Math.round(cash18/1000) * 1000;
+    cash14 = Math.ceil(cash14/1000) * 1000;
+    cash18 = Math.ceil(cash18/1000) * 1000;
     document.getElementById("14cash").innerHTML = cash14.toLocaleString();
     document.getElementById("18cash").innerHTML = cash18.toLocaleString();
 
     var naver14 = cash14 * 1.2;
     var naver18 = cash18 * 1.2;
 
-    naver14 = Math.round(naver14/1000) * 1000;
-    naver18 = Math.round(naver18/1000) * 1000;
+    naver14 = Math.ceil(naver14/1000) * 1000;
+    naver18 = Math.ceil(naver18/1000) * 1000;
 
     document.getElementById("14naver").innerHTML = naver14.toLocaleString();
     document.getElementById("18naver").innerHTML = naver18.toLocaleString();
@@ -57,7 +57,7 @@ function calculate() {
     var cash14v2 = seccost14 * 1.1;
     var cash18v2 = seccost18 * 1.1;
 
-    cash14v2 = Math.round(cash14v2/1000) * 1000;
+    cash14v2 = Math.ceil(cash14v2/1000) * 1000;
     cash18v2 = Math.ceil(cash18v2/1000) * 1000;
     document.getElementById("14cash2").innerHTML = cash14v2.toLocaleString();
     document.getElementById("18cash2").innerHTML = cash18v2.toLocaleString();
@@ -65,7 +65,7 @@ function calculate() {
     var naver14v2 = cash14v2 * 1.2;
     var naver18v2 = cash18v2 * 1.2;
 
-    naver14v2 = Math.round(naver14v2/1000) * 1000;
+    naver14v2 = Math.ceil(naver14v2/1000) * 1000;
     naver18v2 = Math.ceil(naver18v2/1000) * 1000;
     
     document.getElementById("14naver2").innerHTML = naver14v2.toLocaleString();
