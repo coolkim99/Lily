@@ -7,14 +7,14 @@ function calculate() {
     var pay = document.getElementById("pay").value;
     pay = stringNumberToInt(pay);
 
-    var margin = document.getElementById("margin").value;
-    margin = stringNumberToInt(margin);
+    // var margin = document.getElementById("margin").value;
+    // margin = stringNumberToInt(margin);
 
-    var temp14 = 300000 * weight14 * 0.1716;
-    var temp18 = 300000 * weight18 * 0.22;
+    var temp14 = 320000 * weight14 * 0.1716;
+    var temp18 = 320000 * weight18 * 0.22;
 
-    var cost14 = temp14 + pay + margin;
-    var cost18 = temp18 + pay + margin;
+    var cost14 = temp14 + pay + 20000;
+    var cost18 = temp18 + pay + 20000;
 
     cost14 = Math.round(cost14/1000)*1000;
     cost18 = Math.round(cost18/1000)*1000;
@@ -45,8 +45,8 @@ function calculate() {
     var sec14 = gold * weight14 * 0.1716;
     var sec18 = gold * weight18 * 0.22;
 
-    var seccost14 = sec14 + pay + margin;
-    var seccost18 = sec18 + pay + margin;
+    var seccost14 = sec14 + pay + 20000;
+    var seccost18 = sec18 + pay + 20000;
 
     seccost14 = Math.round(seccost14/1000) * 1000;
     seccost18 = Math.round(seccost18/1000) * 1000;
