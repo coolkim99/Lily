@@ -16,8 +16,8 @@ function calculate() {
     var cost14 = temp14 + pay + 20000;
     var cost18 = temp18 + pay + 20000;
 
-    cost14 = Math.ceil(cost14/1000)*1000;
-    cost18 = Math.ceil(cost18/1000)*1000;
+    cost14 = Math.ceil(cost14);
+    cost18 = Math.ceil(cost18);
 
     document.getElementById("14cost").innerHTML = cost14.toLocaleString();
     document.getElementById("18cost").innerHTML = cost18.toLocaleString();
@@ -30,8 +30,8 @@ function calculate() {
     document.getElementById("14cash").innerHTML = cash14.toLocaleString();
     document.getElementById("18cash").innerHTML = cash18.toLocaleString();
 
-    var naver14 = cash14 * 1.2;
-    var naver18 = cash18 * 1.2;
+    var naver14 = cost14 * 1.32;
+    var naver18 = cost18 * 1.32;
 
     naver14 = Math.ceil(naver14/1000) * 1000;
     naver18 = Math.ceil(naver18/1000) * 1000;
@@ -48,8 +48,8 @@ function calculate() {
     var seccost14 = sec14 + pay + 20000;
     var seccost18 = sec18 + pay + 20000;
 
-    seccost14 = Math.ceil(seccost14/1000) * 1000;
-    seccost18 = Math.ceil(seccost18/1000) * 1000;
+    seccost14 = Math.ceil(seccost14);
+    seccost18 = Math.ceil(seccost18);
 
     document.getElementById("14cost2").innerHTML = seccost14.toLocaleString();
     document.getElementById("18cost2").innerHTML = seccost18.toLocaleString();
@@ -62,8 +62,8 @@ function calculate() {
     document.getElementById("14cash2").innerHTML = cash14v2.toLocaleString();
     document.getElementById("18cash2").innerHTML = cash18v2.toLocaleString();
 
-    var naver14v2 = cash14v2 * 1.2;
-    var naver18v2 = cash18v2 * 1.2;
+    var naver14v2 = seccost14 * 1.32;
+    var naver18v2 = seccost18 * 1.32;
 
     naver14v2 = Math.ceil(naver14v2/1000) * 1000;
     naver18v2 = Math.ceil(naver18v2/1000) * 1000;
